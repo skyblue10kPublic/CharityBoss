@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Charity Boss</string>
+    <string name="createIDButton">Configuración de usuario</string>
+    <string name="dummy_button">BUENO</string>
+    <string name="mainActivityLastGavePreface">Tu le diste por última vez</string>
+    <string name="mainActivityNeedToSetUserFirst">Debe crear un usuario</string>
+    <string name="mainActivitySearchCharities">Caridades de búsqueda</string>
+    <string name="ratingDialogSetButton">Dar valoración</string>
+    <string name="searchActivityTitle">Búsqueda de caridad</string>
+    <string name="searchDonateButton">Dar a</string>
+    <string name="searchInvalidInfo">Necesitas ingresar el nombre</string>
+    <string name="searchSelectCharity">Seleccionar caridad</string>
+    <string name="searchThanksDude">Gracias</string>
+    <string name="setUserClearButton">Borrar configuraciones</string>
+    <string name="setUserCreateNewUserText">Ajustes de usuario</string>
+    <string name="setUserNameText">Nombre</string>
+    <string name="setUserTakePhotoText">Guardar usuario</string>
+    <string name="textDefaultUserID">Ningún Usuario</string>
+</resources>

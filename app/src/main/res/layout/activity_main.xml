@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.dobsonsoft.www.charityboss.MainActivity">
+
+    <GridLayout
+        android:id="@+id/gridButtonLayout"
+        android:layout_width="368dp"
+        android:layout_height="495dp"
+        android:layout_marginBottom="8dp"
+        android:columnCount="3"
+        android:rowCount="10"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="8dp">
+
+        <Button
+            android:id="@+id/btnCreateIdentity"
+            android:layout_width="216dp"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="top|center_horizontal|fill_horizontal|center"
+            android:text="@string/createIDButton"
+            tools:layout_editor_absoluteX="85dp"
+            tools:layout_editor_absoluteY="118dp" />
+
+        <Button
+            android:id="@+id/btnSearchCharities"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="center_horizontal|fill_horizontal"
+            android:layout_row="1"
+            android:text="@string/mainActivitySearchCharities" />
+
+        <TextView
+            android:id="@+id/textUserName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_column="0"
+            android:layout_gravity="bottom|fill_horizontal|center"
+            android:layout_row="9"
+            android:editable="false"
+            android:paddingLeft="20dp"
+            android:text="@string/textDefaultUserID"
+            android:textAlignment="center"
+            android:textSize="14sp" />
+    </GridLayout>
+</android.support.constraint.ConstraintLayout>
